@@ -18,9 +18,9 @@ as `nc-root`. If Netlify CMS finds an element with this ID during initialization
 within that element instead of creating it's own.
 
 ## Manual Initialization
-Netlify CMS can now be manually initialized, rather than automatically loading up the moment you import it. The whole point of this at the moment is to inject configuration into Netlify CMS before it loads, bypassing need for an actual Netlify CMS `config.yml`. This is important, for example, when creating tight integrations with static site generators.
+Netlify CMS can now be manually initialized, rather than automatically loading up the moment you import it. The whole point of this at the moment is to inject configuration into Netlify CMS before it loads, bypassing the need for an actual Netlify CMS `config.yml`. This is important, for example, when creating tight integrations with static site generators.
 
-Injecting config is technically already possible by setting `window.CMS_CONFIG` before importing/requiring/running Netlify CMS, but most projects are modular and don't want to use globals, plus `window.CMS_CONFIG` is an internal, not technically supported, and provides no validation.
+Injecting config is technically already possible by setting `window.CMS_CONFIG` before importing/requiring/running Netlify CMS, but most projects are modular and don't want to use globals. Plus, `window.CMS_CONFIG` is an internal, not technically supported, and provides no validation.
 
 Assuming you have the netlify-cms package installed to your project, manual initialization works like so:
 
