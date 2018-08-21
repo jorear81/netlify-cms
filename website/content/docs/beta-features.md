@@ -9,7 +9,7 @@ We run new functionality in an open beta format from time to time. That means th
 **Use these features at your own risk.**
 
 ## Custom Mount Element
-Netlify CMS always creates it's own DOM element for mounting the application, which means it always
+Netlify CMS always creates its own DOM element for mounting the application, which means it always
 takes over the entire page, and is generally inflexible if you're trying to do something creative,
 like injecting it into a shared context.
 
