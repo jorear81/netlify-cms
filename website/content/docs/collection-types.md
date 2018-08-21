@@ -37,8 +37,8 @@ The entries for any folder collection can be filtered based on the value of a si
 
 The `filter` option requires two fields:
 
-* `field`: the name of the collection field to filter on
-* `value`: the desired field value
+* `field`: The name of the collection field to filter on
+* `value`: The desired field value
 
 The example below creates two collections in the same folder, filtered by the `language` field. The first collection includes posts with `language: en`, and the second, with `language: es`.
 
