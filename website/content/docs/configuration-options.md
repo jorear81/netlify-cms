@@ -72,7 +72,7 @@ Based on the settings above, if a user used an image widget field called `avatar
 
 ## Display URL
 
-When the `display_url` setting is specified, the CMS UI will include a link in the fixed area at the top of the page, allowing content authors to easily return to your main site. The text of the link consists of the URL less the protocol portion (e.g., `your-site.com`).
+When the `display_url` setting is specified, the CMS UI includes a link in the fixed area at the top of the page, allowing content authors to easily return to your main site. The text of the link consists of the URL less the protocol portion (e.g., `your-site.com`).
 
 **Example:**
 
