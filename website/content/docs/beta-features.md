@@ -119,8 +119,8 @@ Commit type   | When is it triggered?        | Available template tags
 
 Template tags produce the following output:
 
-- `{{slug}}`: the url-safe filename of the entry changed
+- `{{slug}}`: The url-safe filename of the entry changed
 
-- `{{collection}}`: the name of the collection containing the entry changed
+- `{{collection}}`: The name of the collection containing the entry changed
 
-- `{{path}}`: the full path to the file changed
+- `{{path}}`: The full path to the file changed
